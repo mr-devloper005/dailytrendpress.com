@@ -21,11 +21,11 @@ function getRegisterConfig(kind: ReturnType<typeof getProductKind>) {
   }
   if (kind === 'editorial') {
     return {
-      shell: 'bg-[#fbf6ee] text-[#241711]',
-      panel: 'border border-[#dcc8b7] bg-[#fffdfa]',
-      side: 'border border-[#e6d6c8] bg-[#fff4e8]',
-      muted: 'text-[#6e5547]',
-      action: 'bg-[#241711] text-[#fff1e2] hover:bg-[#3a241b]',
+      shell: 'bg-[#F8F8F8] text-[#333333]',
+      panel: 'border border-[#D8BFD8] bg-white',
+      side: 'border border-[#D8BFD8] bg-[#F8F8F8]',
+      muted: 'text-[#666666]',
+      action: 'bg-[#6A006A] text-white hover:bg-[#8B008B]',
       icon: FileText,
       title: 'Start your contributor workspace',
       body: 'Create a profile for essays, issue drafts, editorial review, and publication scheduling.',
