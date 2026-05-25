@@ -91,6 +91,7 @@ export function FooterOverride() {
             </div>
           ))}
         </div>
+
         <div className="mt-12 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-8 text-sm text-white/60 sm:flex-row sm:items-center">
           <p>© {new Date().getFullYear()} {SITE_CONFIG.name}. All rights reserved.</p>
           <p className="text-white/50">A press distribution experience built on the shared publishing engine.</p>
